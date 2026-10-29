@@ -1,16 +1,21 @@
 # 🚀 My Coding Journey
 
+> *When I used to code every single word with my own hands — long before "vibe coding", AI assistants, or having any idea about modern development, frameworks, and architecture.*
+
 [![GitHub Repo](https://img.shields.io/badge/GitHub-my--coding--journey-181717?style=for-the-badge&logo=github)](https://github.com/devantaris/my-coding-journey)
-[![Languages](https://img.shields.io/badge/Stack-C%20%7C%20C%2B%2B%20%7C%20Python%20%7C%20Java%20%7C%20Flutter-007ACC?style=for-the-badge)](https://github.com/devantaris/my-coding-journey)
-[![Journey](https://img.shields.io/badge/Progression-Beginner%20to%20Full%20Stack%20Mobile-brightgreen?style=for-the-badge)](https://github.com/devantaris/my-coding-journey)
-
-> *"The journey of a thousand miles begins with a single line of code."*
-
-Welcome to **My Coding Journey** — a structured, topic-by-topic chronicle documenting my complete progression as a software developer. This repository traces my trajectory through five major programming paradigms: from procedural thinking in **C**, object-oriented systems & data structures in **C++**, versatile automation & algorithms in **Python**, enterprise application architecture & servlets in **Java**, to cross-platform mobile app development in **Flutter**, alongside production-ready projects.
+[![Languages](https://img.shields.io/badge/Journey-C%20%E2%86%92%20C%2B%2B%20%E2%86%92%20Python%20%E2%86%92%20Java%20%E2%86%92%20Flutter-007ACC?style=for-the-badge)](https://github.com/devantaris/my-coding-journey)
 
 ---
 
-## 🗺️ The Developer Evolution Roadmap
+## 📖 About This Archive
+
+This repository serves as a personal time capsule documenting my entire progression through computer science and programming. Every file here represents a phase of learning how computers think — starting from raw syntax, manual memory logic, and writing programs character-by-character from scratch, moving into object-oriented principles, algorithmic problem solving, web backends, and eventually mobile development.
+
+The sole purpose of this repo is to showcase that raw, hands-on journey.
+
+---
+
+## 🗺️ The Progression
 
 ```mermaid
 flowchart LR
@@ -18,12 +23,12 @@ flowchart LR
     B --> C["<b>3. Python</b><br/>Rapid scripting<br/>Automation & problem solving"]
     C --> D["<b>4. Java</b><br/>Enterprise OOP<br/>Multithreading & Servlets"]
     D --> E["<b>5. Flutter</b><br/>Cross-platform UI<br/>Mobile applications"]
-    E --> F["<b>6. Real Projects</b><br/>ShareSphere, Automail<br/>IEEE automation tools"]
+    E --> F["<b>6. Present & Beyond</b><br/>AI / ML research<br/>Shipping, deployment & building"]
 ```
 
 ---
 
-## 📂 Repository Architecture
+## 📂 Repository Structure
 
 ```text
 my-coding-journey/
@@ -82,47 +87,28 @@ my-coding-journey/
 
 ---
 
-## 🛠️ Tech Stack & Language Overview
+## 🛠️ Phases & Paradigms
 
-| Language / Framework | Key Paradigm | Primary Focus Areas |
+| Phase | Paradigm | Focus |
 | :--- | :--- | :--- |
-| **C** | Procedural / Low-Level | Memory allocation, pointers, procedural control flow |
-| **C++** | OOP & Systems | Encapsulation, inheritance, polymorphism, data structures (LinkedList, Queue, Stack, Sorts) |
-| **Python** | Multi-paradigm / Scripting | Automation, string parsing, regex, file I/O, algorithmic problem solving |
-| **Java** | Object-Oriented / Enterprise | Core OOP, multithreading, exception hierarchies, Java Servlets & Web Applications |
-| **Flutter & Dart** | Declarative UI / Mobile | Cross-platform stateful/stateless widgets, auth flows, streaming UI layouts |
-
----
-
-## 🌟 Featured Highlights
-
-### 1. 📧 AutoMail Dispatcher
-* **Stack**: Python (`smtplib`, `ssl`, `email.mime`, `threading`)
-* **Features**: Automated batch dispatching, attachment encoding (Base64 MIME), TLS encryption, configurable delay intervals to respect SMTP rate limits.
-
-### 2. 💸 ShareSphere (Splitwise Clone)
-* **Stack**: Python, Tkinter GUI
-* **Features**: Multi-user bill splitting, shared ledger computation, category-based expense management, intuitive graphical user interface.
-
-### 3. 🎬 OTT & Streaming Mobile UI
-* **Stack**: Flutter / Dart
-* **Features**: Media catalog layout, dynamic card carousels, responsive mobile interface across iOS & Android.
-
-### 4. ☕ Enterprise Java Servlets & Attendance System
-* **Stack**: Java Servlets, JSP, MySQL, JDBC
-* **Features**: Relational database persistence, dynamic session management, HTTP request-response pipeline.
+| **C** | Procedural / Low-Level | Understanding basic execution flow, loops, memory, and pointers |
+| **C++** | OOP & Systems | Classes, inheritance, polymorphism, and implementing fundamental data structures from scratch |
+| **Python** | Multi-paradigm / Scripting | Writing automation scripts, string parsing, regex, file I/O, and problem solving |
+| **Java** | Object-Oriented / Enterprise | OOP rigor, multithreading, exception handling, and early web backends (Servlets) |
+| **Flutter & Dart** | Declarative UI / Mobile | Exploring cross-platform UI development, widgets, and mobile apps |
+| **Present & Beyond** | Modern Engineering | AI / ML research, production shipping, deployments, and full-stack building |
 
 ---
 
 ## 📈 Learning Milestones
 
-- [x] **Procedural Foundation**: Mastering manual flow control and memory structures in C.
-- [x] **Object-Oriented Mastery**: Implementing complex class hierarchies, virtual tables, and friend functions in C++.
-- [x] **Data Structures & Algorithms**: Implementing Linked Lists, Circular Queues, Stacks, Binary Search, and Merge Sort from scratch.
-- [x] **Scripting & Automation**: Building utilities for bulk automation, file manipulation, and competitive programming in Python.
-- [x] **Enterprise Architecture**: Deploying Java Servlets, multi-threaded GUI systems, and database connectors.
-- [x] **Mobile Engineering**: Delivering polished, cross-platform mobile user interfaces with Flutter.
+- [x] **Procedural Foundations (C)**: Typing every single character by hand, understanding loops, conditionals, and memory without abstractions.
+- [x] **Object-Oriented Systems (C++)**: Hand-crafting class hierarchies, virtual tables, friend functions, and low-level data structures (Linked Lists, Queues, Stacks, Sorting algorithms).
+- [x] **Automation & Scripting (Python)**: Solving competitive programming challenges, text processing, and building utility scripts.
+- [x] **Enterprise Rigor (Java)**: Mastering OOP principles, multi-threaded GUI applications, and dynamic Java Servlets.
+- [x] **Cross-Platform Mobile (Flutter)**: Building structured mobile applications, authentication flows, and streaming UI layouts.
+- [x] **Present & Beyond**: Transitioning into AI/ML research, shipping products, and continuous deployment.
 
 ---
 
-*Authored by [Devansh Kumar](https://github.com/devantaris) as a living record of continuous engineering growth.*
+*Authored by [Devansh Kumar](https://github.com/devantaris) as a personal coding timeline.*
