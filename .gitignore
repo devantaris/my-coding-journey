@@ -1,0 +1,80 @@
+# ==========================================
+# Coding Journey Repository - .gitignore
+# ==========================================
+
+# 1. Excluded Specific Subfolders (as requested)
+Study & DSA/
+[Ss]tudy & [Dd][Ss][Aa]/
+[Ss]tudy/
+[Dd][Ss][Aa]/
+
+# 2. General System & IDE Files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 3. C & C++ Artifacts
+*.exe
+*.obj
+*.o
+*.out
+*.pdb
+*.ilk
+*.bak
+*.swp
+*.pdb
+
+# 4. Python Bytecode, Caches & Portable Runtimes
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+ENV/
+Python/python.exe
+Python/pythonw.exe
+Python/*.dll
+Python/LICENSE.txt
+Python/NEWS.txt
+
+# 5. Java Compiled Binaries & IDE Build Folders
+*.class
+*.jar
+*.war
+*.ear
+*.log
+nbproject/private/
+**/build/
+**/dist/
+
+# 6. Flutter / Dart Temporary & Build Artifacts
+**/.dart_tool/
+**/.packages
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/android/.gradle/
+**/android/local.properties
+**/android/app/build/
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+
+# 7. Sensitive Credential Files
+*.env
+*.pem
+*.key
+*.p12
+*.jks
