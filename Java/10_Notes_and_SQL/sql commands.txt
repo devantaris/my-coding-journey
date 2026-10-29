@@ -1,0 +1,14 @@
+
+CREATE TABLE `testdb`.`admission_list` (
+  `rollno` INT NOT NULL,
+  `stname` VARCHAR(50) NULL,
+  `staddress` VARCHAR(50) NULL,
+  PRIMARY KEY (`rollno`));
+
+
+CREATE TABLE `testdb`.`admission_list` (
+  `rollno` INT,
+  `stname` VARCHAR(50) ,
+  `staddress` VARCHAR(50));
+
+INSERT INTO `testdb`.`admission_list` (`rollno`, `stname`, `staddress`) VALUES ('3', 'Sanjay', 'Varanasi');

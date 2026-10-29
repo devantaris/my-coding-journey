@@ -1,0 +1,12 @@
+lab 1 
+
+why is java not purely obejct oriented programming
+	1. primitive data type
+	2. The concept of 'void' is not an object, yet Java uses it as a return type.
+	3. Java lacks operator overloading (unlike C++ or Python), which means operators cannot be treated as objects.
+	4. It allows procedural programming practices by letting you write code in the main method without creating objects.
+	5. No multiple inheritance.
+	6. Static members and methods allow you to work without creating objects, which violates object-oriented principles since you can call these methods directly on the class.
+
+public - accessible everywhere
+sourcecode (.java)--> bytecode (.class)
